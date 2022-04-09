@@ -69,6 +69,11 @@ footer a {
     margin: 0 10px;
 }
 
+.home{
+    padding-top: 180px;
+    background: linear-gradient(to bottom, #30E3CA, #fff);
+}
+
 .home h1, #vets h1, .faq h1, .about h1{ 
     font-size: 35px;
     text-align: center;
@@ -83,8 +88,8 @@ footer a {
     margin-bottom: 50px;
 }
 
-.home img{
-    margin-left: 100px;
+.img-home{
+    margin-left: 220px;
 }
 
 #vets{
