@@ -14,7 +14,6 @@ body {
 
 header {
   background-color: #30e3ca;
-  color: black;
   margin-bottom: 50px;
   min-height: 60px;
   width: 100%;
@@ -78,7 +77,7 @@ footer a {
 .home h1,
 #vets h1,
 .faq h1,
-.about h1 {
+.about h1, .home-faq h1, #vaccination h1, .adopt h1{
   font-size: 35px;
   text-align: center;
   margin-bottom: 0;
@@ -87,7 +86,7 @@ footer a {
 .home h4,
 #vets p,
 .faq p,
-.about-p {
+.about-p, .home-faq h4, #vaccination p, .adopt p{
   font-size: 18px;
   font-weight: lighter;
   text-align: center;
@@ -140,7 +139,17 @@ footer a {
   border-radius: 100px;
 }
 
+.our-vision {
+    border-left: 5px #fce38a solid;
+    padding-left: 50px;
+    margin: 75px 0;
+  }
+
 /************** Nearby Vets *************/
+
+.home-faq ul{
+    list-style-type: none;
+}
 
 .heading {
   margin-bottom: 30px;
@@ -212,6 +221,9 @@ footer a {
   color: #11999e;
 }
 
+
+/***************** FAQS *************/
+
 .center {
   display: block;
   margin-left: auto;
@@ -219,6 +231,37 @@ footer a {
   width: 50%;
 }
 
-.dis_bod {
-  border-bottom: 3px solid #444;
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    background: #11999E;
+}
+
+.btn:hover {
+    transform: scale(0.97);
+}
+
+.btn h3{
+    margin:0;
+    padding:0;
+    font-weight: lighter;
+}
+
+#vaccination a{
+    text-decoration: none;
+}
+
+.inline{
+    display: inline;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.schedule{
+    margin-top: 50px;
+    text-align: center;
 }
